@@ -6,11 +6,15 @@ const App = () => {
     <>
       <HeaderBlock
         title="Учите слова онлайн"
-        description="lalallalalalalal"
+        descr="это как будто бы хедер"
       />
       <HeaderBlock
         title="Нам нравится это"
         hideBackground={true}
+      />
+      <HeaderBlock
+        title="И мы счастливы"
+        descr="это как будто бы футер"
       />
     </>
   );
