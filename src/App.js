@@ -1,17 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import HeaderBlock from './components/HeaderBlock';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello, rea
-        </p>
-      </header>
-    </div>
+    <>
+      <HeaderBlock
+        title="Учите слова онлайн"
+        descr="это как будто бы хедер"
+      />
+      <HeaderBlock
+        title="Нам нравится это"
+        hideBackground={true}
+      />
+      <HeaderBlock
+        title="И мы счастливы"
+        descr="это как будто бы футер"
+      />
+    </>
   );
 }
 
